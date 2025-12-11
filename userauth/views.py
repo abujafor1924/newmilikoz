@@ -18,6 +18,7 @@ from rest_framework.parsers import MultiPartParser, FormParser
 user=get_user_model()
 
 
+
 def send_otp_email(email, otp):
     send_mail(
         subject="Your OTP Code",
@@ -153,8 +154,7 @@ class RequistPasswordResetAPIView(generics.GenericAPIView):
                {"message": "OTP has been sent to your email."},
                status=status.HTTP_200_OK,
           )
-          
-          
+
 class ResetOtpVerifyAPIView(generics.GenericAPIView):
     serializer_class = ResetOtpSerializer
     permission_classes = [permissions.AllowAny]

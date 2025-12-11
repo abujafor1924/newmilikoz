@@ -11,6 +11,7 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'milikoz.settings')
+# TODO: change to 'milikoz.settings.local' for development
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'milikoz.settings.production')
 
 application = get_asgi_application()

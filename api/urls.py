@@ -12,5 +12,4 @@ urlpatterns = [
      path("confirm-reset-password/", userauth_views.PasswordResetConfirmAPIView.as_view(), name="confirm-reset-password"),
      path("profile/", userauth_views.UserProfileAPIView.as_view(), name="user-profile"),
      
-     
 ]

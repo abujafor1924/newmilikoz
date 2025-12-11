@@ -1,0 +1,556 @@
+INFO 2025-12-09 05:59:39,224 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 05:59:39,310 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 05:59:43,424 autoreload /home/abujafor/Documents/abu-jafor/newmilikoz/milikoz/settings/base.py changed, reloading.
+INFO 2025-12-09 05:59:43,518 autoreload /home/abujafor/Documents/abu-jafor/newmilikoz/milikoz/settings/base.py changed, reloading.
+INFO 2025-12-09 06:00:23,054 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 06:02:16,795 basehttp "GET /__debug__/history_refresh/?request_id=205f4ba4dfe94044ba3785f91b034c2d&exclude_history=True HTTP/1.1" 200 16
+WARNING 2025-12-09 06:03:59,767 log Not Found: /api/v1/event/demo-quote/
+WARNING 2025-12-09 06:03:59,768 basehttp "GET /api/v1/event/demo-quote/ HTTP/1.1" 404 19101
+INFO 2025-12-09 06:12:13,453 basehttp "GET /__debug__/history_refresh/?request_id=205f4ba4dfe94044ba3785f91b034c2d&exclude_history=True HTTP/1.1" 200 1612
+INFO 2025-12-09 06:12:23,004 basehttp "GET /__debug__/history_refresh/?request_id=205f4ba4dfe94044ba3785f91b034c2d&exclude_history=True HTTP/1.1" 200 1612
+INFO 2025-12-09 06:12:32,965 basehttp "GET /__debug__/history_refresh/?request_id=205f4ba4dfe94044ba3785f91b034c2d&exclude_history=True HTTP/1.1" 200 1612
+WARNING 2025-12-09 06:12:45,190 log Not Found: /api/v1/event/demo-quote/
+WARNING 2025-12-09 06:12:45,190 basehttp "GET /api/v1/event/demo-quote/ HTTP/1.1" 404 19101
+WARNING 2025-12-09 06:12:48,911 log Not Found: /
+WARNING 2025-12-09 06:12:48,911 basehttp "GET / HTTP/1.1" 404 17895
+INFO 2025-12-09 06:12:48,919 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-12-09 06:12:48,919 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:12:48,919 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-12-09 06:12:48,971 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:12:51,929 basehttp "GET /__debug__/render_panel/?request_id=6e41d8b77f43490889e5eee5339d4b59&panel_id=HistoryPanel HTTP/1.1" 200 5428
+INFO 2025-12-09 06:12:51,935 basehttp "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:13:53,255 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-09 06:13:55,989 log Not Found: /
+WARNING 2025-12-09 06:13:55,990 basehttp "GET / HTTP/1.1" 404 17895
+INFO 2025-12-09 06:14:15,010 basehttp "GET /swagger/ HTTP/1.1" 200 16806
+INFO 2025-12-09 06:14:15,019 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2025-12-09 06:14:15,020 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:14:15,020 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2025-12-09 06:14:15,021 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:14:15,021 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:14:15,021 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:14:15,021 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:14:15,137 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 06:14:15,353 basehttp "GET /__debug__/history_sidebar/?request_id=d733775ca42d406a87c3ffa0e72dd229 HTTP/1.1" 200 10980
+INFO 2025-12-09 06:14:28,766 basehttp "POST /api/v1/login/ HTTP/1.1" 200 524
+INFO 2025-12-09 06:14:28,977 basehttp "GET /__debug__/history_sidebar/?request_id=79b39978241946d78bcf6e0882d3de19 HTTP/1.1" 200 10976
+INFO 2025-12-09 06:14:31,904 basehttp "GET /__debug__/render_panel/?request_id=4f2cc66b64fd42f790840db8d2fb089f&panel_id=HistoryPanel HTTP/1.1" 200 7035
+INFO 2025-12-09 06:16:05,014 basehttp "GET /redoc/ HTTP/1.1" 200 15542
+INFO 2025-12-09 06:16:05,025 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:16:05,025 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-12-09 06:16:05,025 basehttp "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 200 2566
+INFO 2025-12-09 06:16:05,032 basehttp "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 200 1042511
+INFO 2025-12-09 06:16:05,194 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-12-09 06:16:05,194 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:16:05,202 basehttp "GET /redoc/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 06:16:05,203 basehttp "GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 200 4969
+INFO 2025-12-09 06:25:41,195 autoreload /home/abujafor/Documents/abu-jafor/newmilikoz/milikoz/settings/base.py changed, reloading.
+INFO 2025-12-09 06:26:16,914 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 06:26:27,130 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 06:26:27,151 middlewares API Response: GET /swagger/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/swagger-ui-dist/favicon-32x32.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/swagger-ui-dist/swagger-ui.css">
+    
+    
+        
+    
+</head>
+
+<body class="swagger-body">
+
+
+    
+
+
+<div i...
+INFO 2025-12-09 06:26:27,168 basehttp "GET /swagger/ HTTP/1.1" 200 16806
+INFO 2025-12-09 06:26:27,176 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-12-09 06:26:27,176 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:26:27,271 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-12-09 06:26:27,273 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-12-09 06:26:27,344 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 06:26:27,363 middlewares API Response: GET /swagger/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8000", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 06:26:27,379 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 06:26:27,627 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 06:26:27,642 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 06:26:27,642 basehttp "GET /__debug__/history_sidebar/?request_id=0f97791f71d14127955a506542b6c10f HTTP/1.1" 200 10980
+INFO 2025-12-09 06:26:47,354 middlewares API Request: POST /api/v1/login/ | Body: {'email': 'user@example.com', 'password': 'string'}
+INFO 2025-12-09 06:26:47,622 middlewares API Response: POST /api/v1/login/ | Status: 401 | Response: {"error":"Invalid email or password."}
+WARNING 2025-12-09 06:26:47,637 log Unauthorized: /api/v1/login/
+WARNING 2025-12-09 06:26:47,637 basehttp "POST /api/v1/login/ HTTP/1.1" 401 38
+INFO 2025-12-09 06:26:47,841 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 06:26:47,856 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 06:26:47,857 basehttp "GET /__debug__/history_sidebar/?request_id=0d401558cf26432e84050b869a9de00e HTTP/1.1" 200 10974
+INFO 2025-12-09 08:15:00,805 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 08:16:23,741 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 08:22:56,162 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 08:22:56,177 middlewares API Response: GET /swagger/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/swagger-ui-dist/favicon-32x32.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/swagger-ui-dist/swagger-ui.css">
+    
+    
+        
+    
+</head>
+
+<body class="swagger-body">
+
+
+    
+
+
+<div i...
+INFO 2025-12-09 08:22:56,193 basehttp "GET /swagger/ HTTP/1.1" 200 16806
+INFO 2025-12-09 08:22:56,205 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2025-12-09 08:22:56,205 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2025-12-09 08:22:56,205 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:22:56,206 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:22:56,206 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30101
+INFO 2025-12-09 08:22:56,206 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2025-12-09 08:22:56,208 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:22:56,211 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:22:56,211 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:22:56,255 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-12-09 08:22:56,256 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+INFO 2025-12-09 08:22:56,342 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 08:22:56,359 middlewares API Response: GET /swagger/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8800", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 08:22:56,374 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 08:22:56,622 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 08:22:56,627 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 08:22:56,627 basehttp "GET /__debug__/history_sidebar/?request_id=bab906d7003f4f45b633f47aa97a1a68 HTTP/1.1" 200 10980
+INFO 2025-12-09 08:22:59,261 middlewares API Request: GET /__debug__/render_panel/ | Body: {}
+INFO 2025-12-09 08:22:59,277 middlewares API Response: GET /__debug__/render_panel/ | Status: 200 | Response: {"content": "\n<form method=\"get\" action=\"/__debug__/history_refresh/\">\n    <input type=\"hidden\" name=\"request_id\" value=\"f949bdd5a7dd41c393a5179e390689bf\" id=\"id_request_id\"><input type=\"hidden\" name=\"exclude_history\" value=\"True\" id=\"id_exclude_history\">\n    <button class=\"refreshHistory\">Refresh</button>\n</form>\n<table class=\"djdt-max-height-100\">\n    <thead>\n        <tr>\n            <th>Time</th>\n            <th>Method</th>\n            <th>Path</th>\n        ...
+INFO 2025-12-09 08:22:59,277 basehttp "GET /__debug__/render_panel/?request_id=f949bdd5a7dd41c393a5179e390689bf&panel_id=HistoryPanel HTTP/1.1" 200 3943
+INFO 2025-12-09 08:22:59,280 basehttp "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3431
+INFO 2025-12-09 08:30:06,408 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 08:30:06,413 middlewares API Response: GET /swagger/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/swagger-ui-dist/favicon-32x32.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/swagger-ui-dist/swagger-ui.css">
+    
+    
+        
+    
+</head>
+
+<body class="swagger-body">
+
+
+    
+
+
+<div i...
+INFO 2025-12-09 08:30:06,424 basehttp "GET /swagger/ HTTP/1.1" 200 16806
+INFO 2025-12-09 08:30:06,495 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 08:30:06,512 middlewares API Response: GET /swagger/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8800", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 08:30:06,543 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 08:30:06,747 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 08:30:06,759 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 08:30:06,760 basehttp "GET /__debug__/history_sidebar/?request_id=1d632fd54d6e401aae98b3bfa546aa9f HTTP/1.1" 200 10980
+INFO 2025-12-09 08:47:32,779 middlewares API Request: GET /__debug__/render_panel/ | Body: {}
+INFO 2025-12-09 08:47:32,783 middlewares API Response: GET /__debug__/render_panel/ | Status: 200 | Response: {"content": "\n<h4>Resource usage</h4>\n<table>\n  <colgroup>\n    <col class=\"djdt-width-20\">\n    <col>\n  </colgroup>\n  <thead>\n    <tr>\n      <th>Resource</th>\n      <th>Value</th>\n    </tr>\n  </thead>\n  <tbody>\n    \n      <tr>\n        <td>User CPU time</td>\n        <td>12.721 msec</td>\n      </tr>\n    \n      <tr>\n        <td>System CPU time</td>\n        <td>0.747 msec</td>\n      </tr>\n    \n      <tr>\n        <td>Total CPU time</td>\n        <td>13.468 msec</td>\n      ...
+INFO 2025-12-09 08:47:32,783 basehttp "GET /__debug__/render_panel/?request_id=1855a42ef326461f928ef274c259b5ee&panel_id=TimerPanel HTTP/1.1" 200 1375
+INFO 2025-12-09 08:47:32,791 basehttp "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3426
+INFO 2025-12-09 08:47:34,771 middlewares API Request: GET /__debug__/render_panel/ | Body: {}
+INFO 2025-12-09 08:47:34,772 middlewares API Response: GET /__debug__/render_panel/ | Status: 200 | Response: {"content": "\n<table>\n  <colgroup>\n    <col class=\"djdt-width-20\">\n    <col class=\"djdt-width-20\">\n    <col>\n  </colgroup>\n  <thead>\n    <tr>\n      <th>Package</th>\n      <th>Name</th>\n      <th>Version</th>\n    </tr>\n  </thead>\n  <tbody>\n    \n      <tr>\n        <td>Django</td>\n        <td></td>\n        <td>5.2.9</td>\n      </tr>\n    \n      <tr>\n        <td>Python</td>\n        <td></td>\n        <td>3.12.3</td>\n      </tr>\n    \n      <tr>\n        <td>channels</td>...
+INFO 2025-12-09 08:47:34,773 basehttp "GET /__debug__/render_panel/?request_id=1855a42ef326461f928ef274c259b5ee&panel_id=VersionsPanel HTTP/1.1" 200 1267
+INFO 2025-12-09 08:47:37,298 middlewares API Request: GET /__debug__/render_panel/ | Body: {}
+INFO 2025-12-09 08:47:37,302 middlewares API Response: GET /__debug__/render_panel/ | Status: 200 | Response: {"content": "\n<form method=\"get\" action=\"/__debug__/history_refresh/\">\n    <input type=\"hidden\" name=\"request_id\" value=\"1855a42ef326461f928ef274c259b5ee\" id=\"id_request_id\"><input type=\"hidden\" name=\"exclude_history\" value=\"True\" id=\"id_exclude_history\">\n    <button class=\"refreshHistory\">Refresh</button>\n</form>\n<table class=\"djdt-max-height-100\">\n    <thead>\n        <tr>\n            <th>Time</th>\n            <th>Method</th>\n            <th>Path</th>\n        ...
+INFO 2025-12-09 08:47:37,303 basehttp "GET /__debug__/render_panel/?request_id=1855a42ef326461f928ef274c259b5ee&panel_id=HistoryPanel HTTP/1.1" 200 7123
+INFO 2025-12-09 08:47:37,313 basehttp "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:47:43,771 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 08:47:43,778 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 08:47:43,778 basehttp "GET /__debug__/history_sidebar/?request_id=1d632fd54d6e401aae98b3bfa546aa9f&exclude_history=True HTTP/1.1" 200 9836
+INFO 2025-12-09 08:47:44,498 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 08:47:44,504 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 08:47:44,505 basehttp "GET /__debug__/history_sidebar/?request_id=1d632fd54d6e401aae98b3bfa546aa9f&exclude_history=True HTTP/1.1" 200 9836
+INFO 2025-12-09 08:47:51,811 middlewares API Request: GET /redoc/ | Body: {}
+INFO 2025-12-09 08:47:51,815 middlewares API Response: GET /redoc/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/redoc/redoc-logo.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+    
+    
+        
+    
+</head>
+<body>
+
+
+    
+
+
+<div id="redoc-placeholder"></div>
+
+
+    
+
+
+<script id="redoc-settings"...
+INFO 2025-12-09 08:47:51,828 basehttp "GET /redoc/ HTTP/1.1" 200 15542
+INFO 2025-12-09 08:47:51,838 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-12-09 08:47:51,838 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:47:51,839 basehttp "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:47:51,839 basehttp "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:47:51,923 middlewares API Request: GET /redoc/ | Body: {}
+INFO 2025-12-09 08:47:51,943 middlewares API Response: GET /redoc/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8800", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 08:47:51,948 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-12-09 08:47:51,948 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-12-09 08:47:51,953 basehttp "GET /redoc/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 08:59:45,248 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 08:59:57,158 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 09:00:02,270 middlewares API Request: GET / | Body: {}
+INFO 2025-12-09 09:00:02,287 middlewares API Response: GET / | Status: 404 | Response: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style>
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font-family: sans-serif; background:#eee; color:#000; }
+    body > :where(header, main, footer) { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h...
+WARNING 2025-12-09 09:00:02,304 log Not Found: /
+WARNING 2025-12-09 09:00:02,304 basehttp "GET / HTTP/1.1" 404 17895
+INFO 2025-12-09 09:00:02,322 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-12-09 09:00:02,322 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-12-09 09:00:02,323 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-12-09 09:00:02,369 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-12-09 09:00:23,427 middlewares API Request: POST /api/v1/login/ | Body: {'email': 'user@example.com', 'password': '123456'}
+INFO 2025-12-09 09:00:23,669 middlewares API Response: POST /api/v1/login/ | Status: 200 | Response: {"access":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY1NDg2ODIzLCJpYXQiOjE3NjUyNzA4MjMsImp0aSI6IjQwOGMzNGRmMDkwMzRmMGViMWVjNzA2NjdmZTM3OWZiIiwidXNlcl9pZCI6IjIifQ.AObzxCdm36cj1ucu6HLZHSrakQ4Nd9yAgJ22DDOT49U","refresh":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc2OTU5MDgyMywiaWF0IjoxNzY1MjcwODIzLCJqdGkiOiI3ZDJhZTMzNjYwZjY0N2M5YTQxYjlmNzRlZDhkNjk2NSIsInVzZXJfaWQiOiIyIn0.H60zz0QnExt0sXy03L2UA0j9Y2mwTCAE40jwOalk0Ao","message":"...
+INFO 2025-12-09 09:00:23,674 basehttp "POST /api/v1/login/ HTTP/1.1" 200 524
+INFO 2025-12-09 09:02:10,028 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 09:02:10,044 middlewares API Response: GET /swagger/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/swagger-ui-dist/favicon-32x32.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/swagger-ui-dist/swagger-ui.css">
+    
+    
+        
+    
+</head>
+
+<body class="swagger-body">
+
+
+    
+
+
+<div i...
+INFO 2025-12-09 09:02:10,056 basehttp "GET /swagger/ HTTP/1.1" 200 16806
+INFO 2025-12-09 09:02:10,164 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 09:02:10,182 middlewares API Response: GET /swagger/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8000", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 09:02:10,198 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 09:02:10,400 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 09:02:10,403 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 09:02:10,403 basehttp "GET /__debug__/history_sidebar/?request_id=f3acd420a8784cc6935291c152c37dbc HTTP/1.1" 200 10980
+INFO 2025-12-09 09:03:01,908 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 09:03:01,914 middlewares API Response: GET /swagger/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/swagger-ui-dist/favicon-32x32.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/swagger-ui-dist/swagger-ui.css">
+    
+    
+        
+    
+</head>
+
+<body class="swagger-body">
+
+
+    
+
+
+<div i...
+INFO 2025-12-09 09:03:01,926 basehttp "GET /swagger/ HTTP/1.1" 200 16806
+INFO 2025-12-09 09:03:01,992 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 09:03:02,010 middlewares API Response: GET /swagger/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8800", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 09:03:02,024 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 09:03:02,229 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 09:03:02,240 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 09:03:02,241 basehttp "GET /__debug__/history_sidebar/?request_id=94df98df6d394fb3a23ed09967f0a156 HTTP/1.1" 200 10980
+INFO 2025-12-09 09:03:10,832 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 09:03:19,233 autoreload Watching for file changes with StatReloader
+INFO 2025-12-09 09:03:33,135 middlewares API Request: GET /redoc/ | Body: {}
+INFO 2025-12-09 09:03:33,144 middlewares API Response: GET /redoc/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/redoc/redoc-logo.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+    
+    
+        
+    
+</head>
+<body>
+
+
+    
+
+
+<div id="redoc-placeholder"></div>
+
+
+    
+
+
+<script id="redoc-settings"...
+INFO 2025-12-09 09:03:33,158 basehttp "GET /redoc/ HTTP/1.1" 200 15542
+INFO 2025-12-09 09:03:33,232 middlewares API Request: GET /redoc/ | Body: {}
+INFO 2025-12-09 09:03:33,252 middlewares API Response: GET /redoc/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8800", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 09:03:33,266 basehttp "GET /redoc/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 10:25:37,753 middlewares API Request: GET /__debug__/render_panel/ | Body: {}
+INFO 2025-12-09 10:25:37,754 middlewares API Response: GET /__debug__/render_panel/ | Status: 200 | Response: {"content": "<p>Data for this panel isn&#x27;t available anymore. Please reload the page and retry.</p>", "scripts": []}
+INFO 2025-12-09 10:25:37,754 basehttp "GET /__debug__/render_panel/?request_id=56cb9e52300849fb881967c49d6c9cc3&panel_id=HistoryPanel HTTP/1.1" 200 120
+INFO 2025-12-09 10:25:40,059 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 10:25:40,069 middlewares API Response: GET /swagger/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/swagger-ui-dist/favicon-32x32.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/swagger-ui-dist/swagger-ui.css">
+    
+    
+        
+    
+</head>
+
+<body class="swagger-body">
+
+
+    
+
+
+<div i...
+INFO 2025-12-09 10:25:40,082 basehttp "GET /swagger/ HTTP/1.1" 200 16806
+INFO 2025-12-09 10:25:40,091 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-12-09 10:25:40,093 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-12-09 10:25:40,192 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-12-09 10:25:40,193 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-12-09 10:25:40,267 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-09 10:25:40,284 middlewares API Response: GET /swagger/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8800", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 10:25:40,292 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2025-12-09 10:25:40,297 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 10:25:40,546 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-09 10:25:40,556 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-09 10:25:40,557 basehttp "GET /__debug__/history_sidebar/?request_id=7dad111536b8466ba9c1b19806fe14f3 HTTP/1.1" 200 10980
+INFO 2025-12-09 10:25:49,472 middlewares API Request: GET /__debug__/render_panel/ | Body: {}
+INFO 2025-12-09 10:25:49,484 middlewares API Response: GET /__debug__/render_panel/ | Status: 200 | Response: {"content": "\n<table>\n  <thead>\n    <tr>\n      <th>Setting</th>\n      <th>Value</th>\n    </tr>\n  </thead>\n  <tbody>\n    \n      <tr>\n        <td>ABSOLUTE_URL_OVERRIDES</td>\n        <td><code>&#x27;{}&#x27;</code></td>\n      </tr>\n    \n      <tr>\n        <td>ADMINS</td>\n        <td><code>&#x27;[]&#x27;</code></td>\n      </tr>\n    \n      <tr>\n        <td>ALLOWED_HOSTS</td>\n        <td><code>&quot;[&#x27;127.0.0.1&#x27;, &#x27;localhost&#x27;]&quot;</code></td>\n      </tr>\n  ...
+INFO 2025-12-09 10:25:49,485 basehttp "GET /__debug__/render_panel/?request_id=61c1f6cedcc04fc49765491be7271f1e&panel_id=SettingsPanel HTTP/1.1" 200 29622
+INFO 2025-12-09 10:30:53,949 middlewares API Request: GET /redoc/ | Body: {}
+INFO 2025-12-09 10:30:53,961 middlewares API Response: GET /redoc/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/redoc/redoc-logo.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+    
+    
+        
+    
+</head>
+<body>
+
+
+    
+
+
+<div id="redoc-placeholder"></div>
+
+
+    
+
+
+<script id="redoc-settings"...
+INFO 2025-12-09 10:30:53,979 basehttp "GET /redoc/ HTTP/1.1" 200 15542
+INFO 2025-12-09 10:30:54,080 middlewares API Request: GET /redoc/ | Body: {}
+INFO 2025-12-09 10:30:54,097 middlewares API Response: GET /redoc/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8800", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-09 10:30:54,112 basehttp "GET /redoc/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-09 12:04:18,885 autoreload Watching for file changes with StatReloader
+INFO 2025-12-10 09:46:39,793 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-10 09:46:39,805 middlewares API Response: GET /swagger/ | Status: 200 | Response: 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Milikoz API</title>
+
+    
+        
+    
+
+    
+        
+        <link rel="icon" type="image/png" href="/static/drf-yasg/swagger-ui-dist/favicon-32x32.png"/>
+    
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/drf-yasg/swagger-ui-dist/swagger-ui.css">
+    
+    
+        
+    
+</head>
+
+<body class="swagger-body">
+
+
+    
+
+
+<div i...
+INFO 2025-12-10 09:46:39,832 basehttp "GET /swagger/ HTTP/1.1" 200 16806
+INFO 2025-12-10 09:46:39,846 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,846 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,848 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,849 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,849 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,849 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,850 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,850 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,853 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,935 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:39,937 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-12-10 09:46:40,013 middlewares API Request: GET /swagger/ | Body: {}
+INFO 2025-12-10 09:46:40,031 middlewares API Response: GET /swagger/ | Status: 200 | Response: {"swagger": "2.0", "info": {"title": "Milikoz API", "description": "API documentation for Milikoz project", "version": "v1"}, "host": "127.0.0.1:8800", "schemes": ["http"], "basePath": "/api/v1", "consumes": ["application/json"], "produces": ["application/json"], "securityDefinitions": {"Basic": {"type": "basic"}}, "security": [{"Basic": []}], "paths": {"/confirm-reset-password/": {"post": {"operationId": "confirm-reset-password_create", "description": "", "parameters": [{"name": "data", "in": "...
+INFO 2025-12-10 09:46:40,050 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 5755
+INFO 2025-12-10 09:46:40,299 middlewares API Request: GET /__debug__/history_sidebar/ | Body: {}
+INFO 2025-12-10 09:46:40,314 middlewares API Response: GET /__debug__/history_sidebar/ | Status: 200 | Response: {"ProfilingPanel": {"button": "\n\n<li id=\"djdt-ProfilingPanel\" class=\"djDebugPanelButton\">\n  <input type=\"checkbox\" data-cookie=\"djdtProfilingPanel\" checked title=\"Disable for next and successive requests\">\n  \n    <a href=\"#\" title=\"Profiling\" class=\"ProfilingPanel\">\n  \n  Profiling\n  \n    \n      \n    \n  \n  \n    </a>\n  \n</li>\n", "content": "\n\n\n  <div id=\"ProfilingPanel\" class=\"djdt-panelContent djdt-hidden\">\n    <div class=\"djDebugPanelTitle\">\n      <h3>...
+INFO 2025-12-10 09:46:40,314 basehttp "GET /__debug__/history_sidebar/?request_id=3cf2422cc77b4f9a895a9ea951fd7f69 HTTP/1.1" 200 10980
