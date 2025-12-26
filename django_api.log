@@ -5913,3 +5913,27 @@ INFO 2025-12-26 06:08:17,834 middlewares API Response: GET /admin/jsi18n/ | Stat
       } else {
         return (typeof value === 'string') ? value : va...
 INFO 2025-12-26 06:08:17,842 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-26 06:09:16,516 autoreload Watching for file changes with StatReloader
+INFO 2025-12-26 06:09:19,698 middlewares API Request: GET /admin/ | Body: {}
+INFO 2025-12-26 06:09:19,826 middlewares API Response: GET /admin/ | Status: 200 | Response: 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--  Prevent admin panel being crawled by search engines -->
+    <meta name="robots" content="none, noarchive">
+
+    <title>Site administration | Django site admin</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="/static/vendor/fontawesome-free/css/all.min.css">...
+INFO 2025-12-26 06:09:19,844 basehttp "GET /admin/ HTTP/1.1" 200 48260
+INFO 2025-12-26 06:19:59,480 autoreload /home/abujafor/Documents/abu-jafor/newmilikoz/milikoz/settings/base.py changed, reloading.
+INFO 2025-12-26 06:19:59,750 autoreload Watching for file changes with StatReloader
