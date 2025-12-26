@@ -5937,3 +5937,4 @@ INFO 2025-12-26 06:09:19,826 middlewares API Response: GET /admin/ | Status: 200
 INFO 2025-12-26 06:09:19,844 basehttp "GET /admin/ HTTP/1.1" 200 48260
 INFO 2025-12-26 06:19:59,480 autoreload /home/abujafor/Documents/abu-jafor/newmilikoz/milikoz/settings/base.py changed, reloading.
 INFO 2025-12-26 06:19:59,750 autoreload Watching for file changes with StatReloader
+INFO 2025-12-26 06:20:28,775 autoreload Watching for file changes with StatReloader
