@@ -1,10 +1,11 @@
+from django.contrib.auth.models import (AbstractBaseUser, BaseUserManager,
+                                        PermissionsMixin)
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
-
 # ---------------- USER MANAGER ---------------- #
+
 
 class UserManager(BaseUserManager):
 
@@ -22,11 +23,7 @@ class UserManager(BaseUserManager):
         email = self.normalize_email(email)
 
         user = self.model(
-            email=email,
-            name=name,
-            role=role,
-            phone=phone,
-            **extra_fields
+            email=email, name=name, role=role, phone=phone, **extra_fields
         )
 
         user.set_password(password)
@@ -39,9 +36,13 @@ class UserManager(BaseUserManager):
         extra_fields.setdefault("is_staff", True)
         extra_fields.setdefault("is_superuser", True)
 
-        return self.create_user(email, name, None, phone, password, **extra_fields)
+        return self.create_user(
+            email, name, self.model.USER, phone, password, **extra_fields
+        )
+
 
 # ---------------- USER MODEL ---------------- #
+
 
 class User(AbstractBaseUser, PermissionsMixin):
 
@@ -70,7 +71,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_verified = models.BooleanField(default=False)
 
     USERNAME_FIELD = "email"
-    REQUIRED_FIELDS = ["name", "role", "phone"]
+    REQUIRED_FIELDS = ["name", "phone"]
 
     objects = UserManager()
 
@@ -78,18 +79,19 @@ class User(AbstractBaseUser, PermissionsMixin):
         return self.email
 
 
-
 # ---------------- PROFILE MODEL ---------------- #
+
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="profile")
     location = models.CharField(max_length=255, blank=True, null=True)
-    profile_picture = models.FileField(upload_to="profile_pictures/", blank=True, null=True)
+    profile_picture = models.FileField(
+        upload_to="profile_pictures/", blank=True, null=True
+    )
     bio = models.TextField(blank=True, null=True)
 
     def __str__(self):
         return self.user.email
-
 
 
 # Auto create profile

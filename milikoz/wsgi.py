@@ -12,6 +12,6 @@ import os
 from django.core.wsgi import get_wsgi_application
 
 # TODO: change to 'milikoz.settings.local' for development
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'milikoz.settings.production')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "milikoz.settings.production")
 
 application = get_wsgi_application()

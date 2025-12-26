@@ -1,7 +1,8 @@
-import logging
 import json
+import logging
 
-logger = logging.getLogger('django')
+logger = logging.getLogger("django")
+
 
 class APILogMiddleware:
     def __init__(self, get_response):
@@ -12,7 +13,7 @@ class APILogMiddleware:
         try:
             body = json.loads(request.body)
         except:
-            body = request.body.decode('utf-8') if request.body else {}
+            body = request.body.decode("utf-8") if request.body else {}
 
         logger.info(f"API Request: {request.method} {request.path} | Body: {body}")
 
@@ -20,12 +21,14 @@ class APILogMiddleware:
         response = self.get_response(request)
 
         try:
-            content = response.content.decode('utf-8')
+            content = response.content.decode("utf-8")
             if len(content) > 500:  # Limit response length
-                content = content[:500] + '...'
+                content = content[:500] + "..."
         except:
             content = str(response)
 
-        logger.info(f"API Response: {request.method} {request.path} | Status: {response.status_code} | Response: {content}")
+        logger.info(
+            f"API Response: {request.method} {request.path} | Status: {response.status_code} | Response: {content}"
+        )
 
         return response

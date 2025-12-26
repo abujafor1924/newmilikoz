@@ -9,9 +9,21 @@ https://docs.djangoproject.com/en/5.2/howto/deployment/asgi/
 
 import os
 
+from channels.auth import AuthMiddlewareStack
+from channels.routing import ProtocolTypeRouter, URLRouter
+from channels.security.websocket import AllowedHostsOriginValidator
 from django.core.asgi import get_asgi_application
 
-# TODO: change to 'milikoz.settings.local' for development
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'milikoz.settings.production')
+import messaging.routing
 
-application = get_asgi_application()
+os.environ.setdefault("DJANGO_SETTING_MODULE", "milikoz.settings")
+
+
+application = ProtocolTypeRouter(
+    {
+        "http": get_asgi_application(),
+        "websocket": AllowedHostsOriginValidator(
+            AuthMiddlewareStack(URLRouter(messaging.routing.websocket_urlpatterns))
+        ),
+    }
+)
